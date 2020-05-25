@@ -1,0 +1,9 @@
+version: '4'
+
+
+services:
+     web:
+        container_name: ${APP_NAME}_web
+
+     build:
+        contex: ./docker/web
